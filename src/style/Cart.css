@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.boxItem{
+    width: 669px;
+    padding-top: 15px ;  
+animation: backInDown 2s 1; 
+
+}
+
+
+.heightCart{
+  height: 400px;
+}
+
+.image img{
+    width: 80px;
+    height: 102px;
+}
+
+
+ .button.is-success{
+    margin-left:300px;
+    margin-top: 10px;
+}  
+
+/* .media{
+    border: 1px solid #00D1B2;
+    padding: 10px;
+} */
+
+
+.collection-item{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .button{
+    margin-top: 5px !important;
+    margin-left: 300px;
+} */
+
+
+
+@keyframes backInDown {
+    0% {
+      transform: translateY(-1200px) scale(.7);
+      opacity: .7;
+    }
+  
+    80% {
+      transform: translateY(0px) scale(.7);
+      opacity: .7;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
